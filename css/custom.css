@@ -3,8 +3,8 @@ aside {
 }
 
 #media-player-box {
-	width: 1280px !important;
-    height: 770px !important;
+	width: 1600px !important;
+    height: 950px !important;
 }
 
 .Container {
@@ -18,9 +18,38 @@ aside {
 .Body .Content {
 	padding: 0 !important;
 	margin: auto !important;
-    max-width: 1280px !important;
+    max-width: 1600px !important;
 }
 
 body {
-    background-color: black !important;
+    background-color: rgb(21, 32, 43) !important;
+}
+
+.khungdetail {
+	background: rgb(21, 32, 43) !important;
+	border: 0 !important;
+}
+
+.newscontent .content p {
+	color: gray !important;
+}
+
+#headerv2 {
+	display: none;
+}
+
+.khungdetail .newscontent .detail-single2 .content h2.sapo {
+	color: gray !important;
+}
+
+.mxhsingle2 {
+	display: none;
+}	
+
+#fbrecommend {
+	display: none;
+}
+
+.newscontent .content h1 {
+	color: gray !important;
 }

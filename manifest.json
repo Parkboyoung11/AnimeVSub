@@ -22,13 +22,14 @@
     "webRequest",
     "webRequestBlocking",
     "<all_urls>",
-    "*://animevsub.tv/*"
+    "*://animevsub.tv/*",
+    "*://cafebiz.vn/*"
   ],
 
   "content_scripts": [{
     "css": ["css/custom.css"],
     "js": ["js/custom.js"],
-    "matches": ["*://animevsub.tv/*"]
+    "matches": ["*://animevsub.tv/*",  "*://cafebiz.vn/*"]
   }],
 
   "web_accessible_resources": [
